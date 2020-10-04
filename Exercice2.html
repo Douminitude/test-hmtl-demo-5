@@ -1,0 +1,49 @@
+<!-- 
+    Demo 5 Exercice 2
+-->
+<!DOCTYPE html>
+
+<html lang="fr-ca">
+    <head>
+        <title>Demo 5 Exercice 2</title>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <form action="">
+            <p>Member Demographics</p>
+            <label for="nom">Name </label>
+            <input type="text" size="20" name="nom">
+
+            <p>Are you a member?</p>
+            <p>
+                <input type="radio" name="membre" value="M" checked> <label for="membre">Member</label>
+                <input type="radio" name="membre" value="NM"> <label for="non-membre">Non-member</label>
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </p>
+            <p>
+                <label for="facility">Facility</label>
+                <select id="facility" size="1">
+                    <option value="badminton">Badminton</option>
+                    <option value="squash">Squash</option>
+                    <option value="racketball">Racketball</option>>
+                </select>
+            </p>
+            <p>Select a reservation date and time:</p>
+            <p>
+                <input type="date" name="date">
+                <input type="time" name="heure">
+            </p>
+            <p>
+                <input type="checkbox" name="policy" value="Y"> 
+                <label for="policy">I agree to the club's reservation policy</label>
+            </p>
+            <p>
+                <input type="submit" value="SUBMIT">
+            </p>
+        </form>
+    </body>
+</html>

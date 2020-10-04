@@ -1,0 +1,53 @@
+<!-- 
+    Demo 5 Exercice 1
+-->
+<!DOCTYPE html>
+
+<html lang="fr-ca">
+    <head>
+        <title>Demo 5 Exercice 1</title>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <h1>Votre choix de Film</h1>
+        <form action="">
+            <label for="titre">Titre: </label>
+            <input type="text" size="20" name="titre">
+            <label for="annee">Années: </label>
+            <input type="text" size="4" maxLenght="4" name="annee" value="2008"><br><br>
+            <p>
+                <label for="genre"></label>
+                Comédie: <input type="checkbox" name="genre" value="C">
+                Drame: <input type="checkbox" name="genre" value="D">
+                Histoire: <input type="checkbox" name="genre" value="H">
+                Suspense: <input type="checkbox" name="genre" value="S">
+            </p>
+            <p>
+                France: <input type="radio" name="pays" value="FR" checked>
+                Etats-Unis: <input type="radio" name="pays" value="US">
+                Allemagne: <input type="radio" name="pays" value="DE">
+                Japon: <input type="radio" name="pays" value="JP">
+            </p>
+            <p>
+                <label for="metteur-en-scene">Metteur en scène: </label>
+                <select id="metteurs-en-scene" size="3">
+                    <option value="1">Alfred Hitchcock</option>
+                    <option value="2">Maurice Pialat</option>
+                    <option value="3" selected="3">Quentin Tarantino</option>
+                    <option value="4">Akira Kurosawa</option>
+                    <option value="5">John Woo</option>
+                    <option value="6">Tim Burton</option>
+                </select>
+            </p>
+            <p>
+                <label for="resume">Résumé: </label>
+                <textarea name="resume" id="resume" rows="2" cols="25">Résumé du film</textarea>
+            </p>
+            <p>
+                <input type="submit" value="Valider">
+                <input type="reset" value="Annuler">
+            </p>
+        </form>
+    </body>
+</html>
